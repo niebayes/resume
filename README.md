@@ -56,7 +56,7 @@ Github：[https://github.com/niebayes](https://github.com/niebayes)
 - 服务层：支持单点配置变更、region split；使用 scheduler 自动调度 region 以实现负载均衡；实现了 read index 优化
 - 事务层：实现了基于 Percolator 协议的 MVCC 并发控制
 
-### [基于 LSM 树的单机键值数据库](https://github.com/niebayes/LSM-DB) _（关键词：键值数据库、LSM 树、Rust）_
+### [基于 LSM 树的写优化键值数据库](https://github.com/niebayes/LSM-DB) _（关键词：键值数据库、LSM 树、Rust）_
 
 - 支持单点插入、单点更新、单点删除、区间查询等功能
 - 实现了基于 B 树的 memtable，设计并实现了 sstable 的文件格式、布隆过滤器、稀疏索引
