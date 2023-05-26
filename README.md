@@ -50,13 +50,19 @@ Github：[https://github.com/niebayes](https://github.com/niebayes)
 # 个人项目
 
 
-### [基于 Multi-Raft 的高可用分布式键值数据库](https://github.com/niebayes/tinykv-summary)  _**（关键词：分布式数据库、Raft、Percolator、Go）**_
+### [基于 Multi-Raft 的高可用分布式键值数据库](https://github.com/niebayes/tinykv-summary)  
+
+
+_**（关键词：分布式数据库、Raft、Percolator、Go）**_
 
 - 共识层：使用 Raft 协议，支持领导选举、日志复制、日志压缩；实现了 prevote、automatic step down、async apply、流量控制等优化
 - 服务层：支持单点配置变更、region split；使用 scheduler 自动调度 region 以实现负载均衡；实现了 read index 优化
 - 事务层：实现了基于 Percolator 协议的 MVCC 并发控制
 
-### [基于 LSM 树的写优化键值数据库](https://github.com/niebayes/LSM-DB) _（关键词：键值数据库、LSM 树、Rust）_
+### [基于 LSM 树的写优化键值数据库](https://github.com/niebayes/LSM-DB) 
+
+
+_**（关键词：键值数据库、LSM 树、Rust）**_
 
 - 支持单点插入、单点更新、单点删除、区间查询等功能
 - 实现了基于 B 树的 memtable，设计并实现了 sstable 的文件格式、布隆过滤器、稀疏索引
@@ -75,13 +81,19 @@ Github：[https://github.com/niebayes](https://github.com/niebayes)
 # 开源经历
 
 
-### 谷歌开源之夏 - Jina AI - 2023.04 至今 _（关键词：MLOps、多模态 AI、神经搜索、Python、Go）_
+### 谷歌开源之夏 - Jina AI - 2023.04 至今 
+
+
+_**（关键词：MLOps、多模态 AI、神经搜索、Python、Go）**_
 
 - 完善基于 Raft 的 stateful executor feature，使用 cgo 库将相关的 Go 代码包装为 Python binding
 - 为 stateful executor feature 添加 follower read 等优化，为服务部署提供 consistency mode 选项
 - 实现基于 Jina 框架和 ANNLite 库的高可用、高吞吐神经搜索服务
 
-### 中科院开源之夏 - Apache Doris - 2023.05 至今 _**（关键词：分析型数据库、C++）**_
+### 中科院开源之夏 - Apache Doris - 2023.05 至今 
+
+
+_**（关键词：分析型数据库、C++）**_
 
 - 支持对 `array_contains_all` 等函数的 SQL 解析和执行
 - 为 Load Profile 添加关于 Segment Compaction 的信息
