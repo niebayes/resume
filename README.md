@@ -69,8 +69,8 @@ Github：[https://github.com/niebayes](https://github.com/niebayes)
 - [bustub](https://github.com/niebayes/CMU-15-445-2020): 为 bustub 数据库实现缓冲池管理器、B+ 树索引、可扩展哈希索引、锁管理器、死锁预防 _**（关键词：数据库存储、C++）**_
 - [miniob](https://github.com/niebayes/miniob-summary): 为 miniob 数据库添加对 multi-row insert、multi-col update、cross join、inner join、order by、group by、having、sub-select、aggregation 等 SQL 语句的解析和执行功能 _**（关键词：数据库 SQL、C++）**_
 - [xv6](https://github.com/niebayes/MIT-6.S081-summary): 为 xv6 操作系统添加 mmap、kernel thread、copy-on-write、lazy allocation、compensated round-robin scheduling 等功能 _**（关键词：操作系统内核、C）**_
-- [balancebeam](https://github.com/niebayes/Balancebeam)：一个具备健康检查、线程池、连接池、缓存管理、流量控制、负载均衡等功能的代理服务器 _**（关键词：代理服务器、Rust）**_
-- [deet](https://github.com/niebayes/DEET-Debugger): 一个具备 breakpoint、next、continue、backtrace 等常用调试命令的 debugger _**（关键词：debugger、Rust）**_
+- [balancebeam](https://github.com/niebayes/Balancebeam)：一个具备健康检查、线程池、连接池、缓存管理、速率控制、负载均衡等功能的代理服务器 _**（关键词：代理服务器、Rust）**_
+- [deet](https://github.com/niebayes/DEET-Debugger): 一个具备 breakpoint、next、continue、backtrace 等常用调试命令的 debugger _**（关键词：Debugger、Rust）**_
 
 # 开源经历
 
