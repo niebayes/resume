@@ -47,6 +47,26 @@ Github：[https://github.com/niebayes](https://github.com/niebayes)
 武汉理工大学、本科、机械设计制造及其自动化、2014.09 - 2018.07
 
 
+# 开源经历
+
+
+### 谷歌开源之夏 - Jina AI - 2023.04 至今 
+
+
+_**（关键词：MLOps、多模态 AI、神经搜索、Python、Go）**_
+
+- 完善基于 Raft 的 stateful executor feature，使用 cgo 库将相关的 Go 代码包装为 Python binding
+- 为 stateful executor feature 添加 follower read 等优化，为服务部署提供 consistency mode 选项
+- 实现基于 Jina 框架和 ANNLite 库的高可用、高吞吐神经搜索服务
+
+### 中科院开源之夏 - Apache Doris - 2023.05 至今 
+
+
+_**（关键词：分析型数据库、C++）**_
+
+- 支持对 `array_contains_all` 等函数的 SQL 解析和执行
+- 为 Load Profile 添加关于 Segment Compaction 的信息
+
 # 个人项目
 
 
@@ -77,26 +97,6 @@ _**（关键词：键值数据库、LSM 树、Rust）**_
 - [xv6](https://github.com/niebayes/MIT-6.S081-summary): 为 xv6 操作系统添加 mmap、kernel thread、copy-on-write、lazy allocation、compensated round-robin scheduling 等功能 _**（关键词：操作系统内核、C）**_
 - [balancebeam](https://github.com/niebayes/Balancebeam)：一个具备健康检查、线程池、连接池、缓存管理、速率控制、负载均衡等功能的代理服务器 _**（关键词：代理服务器、Rust）**_
 - [deet](https://github.com/niebayes/DEET-Debugger): 一个具备 breakpoint、next、continue、backtrace 等常用调试命令的 debugger _**（关键词：Debugger、Rust）**_
-
-# 开源经历
-
-
-### 谷歌开源之夏 - Jina AI - 2023.04 至今 
-
-
-_**（关键词：MLOps、多模态 AI、神经搜索、Python、Go）**_
-
-- 完善基于 Raft 的 stateful executor feature，使用 cgo 库将相关的 Go 代码包装为 Python binding
-- 为 stateful executor feature 添加 follower read 等优化，为服务部署提供 consistency mode 选项
-- 实现基于 Jina 框架和 ANNLite 库的高可用、高吞吐神经搜索服务
-
-### 中科院开源之夏 - Apache Doris - 2023.05 至今 
-
-
-_**（关键词：分析型数据库、C++）**_
-
-- 支持对 `array_contains_all` 等函数的 SQL 解析和执行
-- 为 Load Profile 添加关于 Segment Compaction 的信息
 
 # 技能
 
